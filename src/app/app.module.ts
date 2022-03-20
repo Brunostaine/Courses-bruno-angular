@@ -10,6 +10,8 @@ import { StarComponent } from './star/star.component';
 import { ReplacePipe } from './pipe/replace.pipe';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { Error404Component } from './error.404/error-404.component';
+import { CourseInfoComponent } from './courses/course-info.component';
+
 
 
 @NgModule({ //decorator
@@ -19,7 +21,8 @@ import { Error404Component } from './error.404/error-404.component';
     StarComponent,
     ReplacePipe,
     NavBarComponent,
-    Error404Component
+    Error404Component,
+    
   ],
   imports: [
     BrowserModule,
@@ -29,10 +32,13 @@ import { Error404Component } from './error.404/error-404.component';
         path: '', redirectTo: 'courses', pathMatch: 'full' //quando nao rota direciona para courses
       },
       {
+        path: 'courses/info/:id', component: CourseInfoComponent
+      },
+      {
         path: 'courses', component: courseListComponent // rota de courses
       },
       {
-        path: '**', component: Error404Component
+        path: '**', component: Error404Component // Se não achar uma rota direciona para página de erro
       }
     ])
       
