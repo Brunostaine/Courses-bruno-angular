@@ -6,10 +6,10 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { courseListComponent } from './courses/course-list.component';
-import { StarComponent } from './star/star.component';
-import { ReplacePipe } from './pipe/replace.pipe';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { Error404Component } from './error.404/error-404.component';
+import { StarComponent } from './shared/star/star.component';
+import { ReplacePipe } from './shared/pipe/replace.pipe';
+import { NavBarComponent } from './core/component/nav-bar/nav-bar.component';
+import { Error404Component } from './core/component/error.404/error-404.component';
 import { CourseInfoComponent } from './courses/course-info.component';
 
 
