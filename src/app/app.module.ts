@@ -5,13 +5,15 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { courseListComponent } from './courses/course-list.component';
 import { StarComponent } from './star/star.component';
+import { ReplacePipe } from './pipe/replace.pipe';
 
 
 @NgModule({ //decorator
   declarations: [
     AppComponent,
     courseListComponent, // está vindo do course list component
-    StarComponent
+    StarComponent,
+    ReplacePipe
   ],
   imports: [
     BrowserModule,
