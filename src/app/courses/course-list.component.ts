@@ -3,7 +3,7 @@ import { Course } from "./course";
 import { CourseService } from "./course.service";
 
 @Component({
-    selector: 'app-course-list',
+    // selector: 'app-course-list', Estou usando rota
     templateUrl: './course-list.component.html',
     styleUrls: ['./course-list.component.css']
 })
