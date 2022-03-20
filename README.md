@@ -20,11 +20,12 @@
 
 ## Descrição do projeto
 
-- Uma página de cursos
+- Uma página de cursos dinamica onde podemos editar os cursos, adicionar e excluir.
 
 ## :hammer: Funcionalidades do projeto
 
-- `Courses` : 
+- `Courses` : Mostra a lista de cursos existentes
+- `star` : Exibe quantas estrelas o curso tem 
 
 ## 📁 Acesso ao projeto
 
