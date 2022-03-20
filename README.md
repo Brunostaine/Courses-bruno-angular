@@ -25,7 +25,14 @@
 ## :hammer: Funcionalidades do projeto
 
 - `Courses` : Mostra a lista de cursos existentes
-- `star` : Exibe quantas estrelas o curso tem 
+- `Course Info` : Exibe as informações da página e permite a alteração das informações
+- `Edit` : Para editar os cursos
+- `Delete` : Deletar qualquer função
+- `Pipe` : Criando um pipe
+- `Star` : Faz uma atualização dinamica de estrelas de acordo com a avalição do curso
+- `Nav-bar` : Menu básico da página
+- `Error` : Página de erro para exibir erros
+- `Server` : Adicionar as informações da página
 
 ## 📁 Acesso ao projeto
 
